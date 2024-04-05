@@ -13,3 +13,5 @@ test('Check about page test', async ({ page }) => {
   const text = await heading.textContent();
   expect(text).toBe('Home');
 });
+
+// fix all ui tests before
